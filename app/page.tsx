@@ -30,6 +30,40 @@ export default function Home() {
             </a>
           </div>
         </section>
+        <section className="flex flex-col gap-8">
+          <div className="flex flex-col gap-3">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-blue-600">
+              Why salons switch
+            </p>
+            <h2 className="text-2xl font-semibold text-slate-900 sm:text-3xl">
+              Problem → Solution
+            </h2>
+            <p className="max-w-2xl text-sm text-slate-600 sm:text-base">
+              Replace the manual hustle with an automated system that keeps your chairs
+              full and your team organized.
+            </p>
+          </div>
+          <div className="grid gap-6 lg:grid-cols-2">
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+              <h3 className="text-lg font-semibold text-slate-900">The problem</h3>
+              <ul className="mt-4 space-y-3 text-sm text-slate-600">
+                <li>Missed calls/messages = lost bookings</li>
+                <li>No-show losses without reminders</li>
+                <li>
+                  Manual scheduling wastes staff time and causes double bookings
+                </li>
+              </ul>
+            </div>
+            <div className="rounded-2xl border border-blue-100 bg-blue-50/50 p-6">
+              <h3 className="text-lg font-semibold text-slate-900">The solution</h3>
+              <ul className="mt-4 space-y-3 text-sm text-slate-600">
+                <li>Online booking 24/7 (website + Instagram/Facebook link)</li>
+                <li>Automatic SMS/email reminders + confirmations</li>
+                <li>Central calendar for staff + simple admin panel</li>
+              </ul>
+            </div>
+          </div>
+        </section>
         <section className="grid gap-6 sm:grid-cols-3">
           <div className="rounded-2xl border border-blue-100 bg-blue-50/50 p-5">
             <p className="text-sm font-semibold text-blue-700">Smart reminders</p>
